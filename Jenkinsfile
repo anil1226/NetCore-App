@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Perform build steps here'
+                echo 'Perform build steps here with polling'
                 //sh 'mvn clean compile'
             }
         }
