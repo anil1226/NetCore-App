@@ -6,7 +6,7 @@ pipeline {
         stage('Restore') {
             steps {
                 // Restore NuGet packages
-                sh 'dotnet restore'
+                sh 'dotnet restore sqlapp.sln'
             }
         }
 
